@@ -15,11 +15,12 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "애매한 개발자 창고 - piopoi.github.io"
+# locale                   : "en-US"
+locale                   : "ko-KR"
+title                    : "piopoi.github.io"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "애매한 개발자"
+name                     : "Seokwon Kang"
 description              : "이것저것 다 기록해보는 개발자의 창고"
 url                      : "https://piopoi.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
