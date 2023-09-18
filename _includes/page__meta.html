@@ -29,11 +29,14 @@
         {% endif %}
       </span>
     {% endif %} -->
+    <!--
     {% if post.date %}
         <span class="page__meta-readtime">
           <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%B %d, %Y" }}
         </span>
     {% endif %}
+    -->
+    {% include page__date.html %}
     <!-- ######################################################################### -->
   </p>
 {% endif %}
