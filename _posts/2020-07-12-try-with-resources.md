@@ -57,7 +57,7 @@ try (FileOutputStream fos = new FileOutputStream("example.txt")) {
 
 `try-with-resources`을 사용하여 자원을 자동으로 해제하기 위해서는 해당 자원에 AutoCloseable 인터페이스를 Implements 해야 한다.  
 
-- AutoClosable 인터페이스 내에는 close() 메소드만 존재한다. [(참실)](https://docs.oracle.com/javase/8/docs/api/java/lang/AutoCloseable.html)
+- AutoClosable 인터페이스 내에는 close() 메소드만 존재한다. [(Document)](https://docs.oracle.com/javase/8/docs/api/java/lang/AutoCloseable.html)
 
 `try-with-resources`의 `try` 블록이 종료될 때, 오버라이딩한 close() 메소드가 자동으로 호출되어 자원이 해제된다. 
 
