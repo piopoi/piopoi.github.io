@@ -12,16 +12,18 @@ toc_sticky: true
 #use_math: true
 ---
 
-환경
+# 1. 서버 환경
+
+개인 서버가 1대라서 Netdata를 서비스 할 서버와 모니터링할 노드가 같은 서버다.
+
 - ubuntu 22.04.3
 - docker, docker-compose
 - netdata 설정파일을 저장할 디렉토리: /home/{사용자명}/docker/netdata
-
 <br>
 
-# 1. Netdata 설치 & 실행
+# 2. Netdata 설치 & 실행
 
-## 1-1. volumes에 마운트 할 디렉토리 생성
+## 2-1. volumes에 마운트 할 디렉토리 생성
 
 netdata 데이터를 저장할 디렉토리로 이동한다. (없으면 생성: mkdir)
 ```bash
@@ -35,7 +37,7 @@ mkdir config lib cache
 ```
 <br>
 
-## 1-2. docker-compose 파일 작성
+## 2-2. docker-compose 파일 작성
 
 docker-compose.yml 파일을 생성하고,
 ```bash
@@ -73,7 +75,7 @@ services:
 ```
 <br>
 
-# 1-3. docker container 생성
+# 2-3. docker container 생성
 
 아래 명령어를 실행하면 도커 이미지를 가져와서 컨테이너까지 띄워준다.
 ```bash
@@ -81,7 +83,7 @@ sudo docker compose up -d
 ```
 <br>
 
-# 2. Netdata 접속
+# 3. Netdata 접속
 
 브라우저에서 아래 URL을 입력하여 Netdata 페이지에 접속한다.  
 Netdata의 기본 Port는 **19999**이다.
@@ -93,7 +95,7 @@ http://{서버 IP}:19999
 
 <br>
 
-# 3. 후기
+# 4. 후기
 netdata를 먼저 사용해본 후 화면이 마음에 안들면 grafana를 추가로 사용 가능한지 알아보려고 했는데, netdata 단독 사용으로도 충분할 만큼 화면이 깔끔하다.
 
 다만, **관리자 계정이나 접속 권한을 설정할 수 있는 옵션이 보이지 않는다.**  
