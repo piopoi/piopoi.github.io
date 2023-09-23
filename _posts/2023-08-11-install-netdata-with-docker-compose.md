@@ -83,9 +83,14 @@ sudo docker compose up -d
 
 # 2. Netdata 접속
 
+브라우저에서 아래 URL을 입력하여 Netdata 페이지에 접속한다.  
+Netdata의 기본 Port는 **19999**이다.
 ```bash
 http://{서버 IP}:19999
 ```
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023/0923/230923_01.png" width="100%"/><br>
+
 <br>
 
 # 3. 후기
