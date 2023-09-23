@@ -11,6 +11,7 @@ toc: true
 toc_sticky: true
 #use_math: true
 ---
+<br>
 
 # 1. 서버 환경
 
@@ -19,6 +20,7 @@ toc_sticky: true
 - ubuntu 22.04.3
 - docker, docker-compose
 - netdata 설정파일을 저장할 디렉토리: /home/{사용자명}/docker/netdata
+
 <br>
 
 # 2. Netdata 설치 & 실행
