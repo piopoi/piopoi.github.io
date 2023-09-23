@@ -105,4 +105,3 @@ call: MyResource.close()
 
 # References.
 [https://docs.oracle.com/javase/8/docs/api/java/lang/AutoCloseable.html](https://docs.oracle.com/javase/8/docs/api/java/lang/AutoCloseable.html)  
-[ChatGPT](https://chat.openai.com/?model=gpt-4)
