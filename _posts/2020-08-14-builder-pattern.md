@@ -1,5 +1,5 @@
 ---
-title: "Builder pattern"
+title: "빌더 패턴 (Builder pattern)"
 date: 2020-08-14
 categories: 
   - Programming
