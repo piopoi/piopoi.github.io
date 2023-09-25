@@ -7,6 +7,7 @@ tags:
   - Design pattern
 toc: true
 toc_sticky: true
+published: false
 #use_math: true
 ---
 <br>
