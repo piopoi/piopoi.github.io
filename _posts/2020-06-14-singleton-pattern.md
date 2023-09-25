@@ -9,6 +9,7 @@ toc: true
 toc_sticky: true
 #use_math: true
 ---
+<br>
 
 클래스의 인스턴스가 1개만 생성되는 것을 보장하는 디자인 패턴.
 
