@@ -1,4 +1,4 @@
-<div class="page__comments">
+<div class="page__comments pagination">
   {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
   {% case site.comments.provider %}
     {% when "discourse" %}
