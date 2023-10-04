@@ -59,7 +59,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # true, false (default)
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : "lunr" # lunr (default), algolia, google
@@ -107,13 +107,13 @@ analytics:
 author:
   name             : "Seokwon Kang"
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Hello, world!"
+  bio              : "Java Web Developer\nkangsw1988@gmail.com"
   location         : "Republic of Korea"
-  email            : "kangsw1988@gmail.com"
+#  email            : "kangsw1988@gmail.com"
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-    #   url: "mailto:kangsw1988@gmail.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:kangsw1988@gmail.com"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -133,6 +133,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:kangsw1988@gmail.com"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
       # url:
