@@ -86,6 +86,7 @@
 }
 
 .archive__item-teaser {
+  display: none; //검색결과페이지에서 teaser 제거
   position: relative;
   border-radius: $border-radius;
   overflow: hidden;
