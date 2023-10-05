@@ -1,0 +1,91 @@
+---
+title: "MySQL8.0 - ACID 모델"
+date: 2021-05-05
+categories:
+  - Database
+tags:
+  - MySQL
+toc: true
+toc_sticky: true
+#use_math: true
+---
+> MySQL8.0 공식 문서로 공부하기
+
+# ACID 모델이란?
+비즈니스 데이터 및 애플리케이션에 중요한 안정성 측면을 강조하는 데이터베이스 설계 원칙으로, 데이터베이스 트랜잭션이 안전하게 수행된다는 것을 보장하기 위한 성질을 가리키는 약어이다.
+
+- 다음 4가지의 특성을 가진다.
+  1. Atomicity (원자성)
+  2. Consistency (일관성)
+  3. Isolation (격리성)
+  4. Durability (지속성)
+
+MySQL에는 소프트웨어 충돌과 같은 예외적인 조건으로 인해 데이터가 손상되지 않고 결과가 왜곡되지 않도록 ACID 모델을 준수하는 InnoDB 스토리지 엔진과 같은 구성 요소가 포함되어 있다.  
+
+- ACID 호환 기능을 사용하면 일관성 검사 및 충돌 복구 메커니즘을 다시 개발할 필요가 없다.
+- MySQL 8.0에서는 InnoDB가 기본 MySQL 스토리지 엔진이다. 
+- 따라서, 테이블 생성 시 다른 엔진을 지정하지 않으면 InnoDB 엔진을 기본으로 사용하게 된다.
+
+<br>
+
+# 1. Atomicity (원자성)
+트랜잭션에 포함된 작업들은 모두 성공하거나 모두 실패해야 한다. 중간 상태에서 멈추어서는 안 된다.    
+예를 들어, 은행 계좌 이체의 경우, 한 계좌에서 돈을 빼는 동작과 다른 계좌에 돈을 넣는 동작이 모두 성공하거나 둘 다 실패해야 한다.
+
+## 관련 MySQL 기능
+원자성은 주로 InnoDB 트랜잭션과 관련이 있다.
+- autocommit 설정
+- commit 문
+- rollback 문
+
+<br>
+
+# 2. Consistency (일관성)
+트랜잭션이 성공적으로 완료된 후에도 데이터베이스는 일관된 상태를 유지해야 한다.  
+위의 은행 예시를 계속 사용하면, 돈의 총량은 변동 전과 후가 동일해야 합니다.
+
+## 관련 MySQL 기능
+일관성은 주로 데이터를 충돌로부터 보호하기 위한 내부 InnoDB 처리와 관련이 있다.
+- InnoDB 이중 쓰기 버퍼(The InnoDB doublewrite buffer)
+- InnoDB crash recovery
+
+<br>
+
+# 3. Isolation (격리성)
+동시에 여러 트랜잭션이 실행될 때, 각 트랜잭션은 서로의 실행 중간 결과를 볼 수 없다.  
+예를 들어, 두 사용자가 동시에 같은 계좌의 잔액을 확인한다면, 하나의 트랜잭션의 중간 결과는 다른 트랜잭션에 영향을 주지 않아야 한다.
+
+## 관련 MySQL 기능
+격리성은 주로 InnoDB 트랜잭션, 특히 각 트랜잭션에 적용되는 격리 수준과 관련이 있다.
+- autocommit 설정
+- 트랜잭션 격리 수준(Transaction isolation levels)과 SET TRANSACTION 문
+- The low-level details of InnoDB locking.
+
+<br>
+
+# 4. Durability (지속성)
+트랜잭션이 성공적으로 완료된 후, 그 결과는 영구적으로 데이터베이스에 저장되어야 한다.  
+시스템 오류나 장애가 발생하더라도, 이전에 완료된 트랜잭션의 결과는 보존되어야 한다.
+
+## 관련 MySQL 기능
+지속성은 특정 하드웨어 구성과 상호 작용하는 MySQL 소프트웨어 기능과 관련이 있다.
+- InnoDB 이중 쓰기 버퍼(The InnoDB doublewrite buffer)
+- innodb_flush_log_at_trx_commit 변수.
+- sync_binlog 변수.
+- innodb_file_per_table 변수.
+- 디스크 드라이브, SSD 또는 RAID array와 같은 저장 장치의 write buffer.
+- 저장 장치의 배터리 백업 캐시.
+- MySQL을 실행하는 데 사용되는 운영 체제, 특히 fsync() 시스템 호출에 대한 지원.
+- MySQL 서버를 실행하고 MySQL 데이터를 저장하는 모든 컴퓨터 서버 및 저장 장치의 전력을 보호하는 무정전 전원 공급 장치(UPS).
+- 백업 빈도 및 백업 유형, 백업 보존 기간과 같은 백업 전략.
+- 분산 또는 호스팅된 데이터 애플리케이션의 경우, MySQL 서버용 하드웨어가 위치한 데이터 센터의 특정 특성 및 데이터 센터 간의 네트워크 연결
+
+
+<br>
+<br>
+
+# References
+
+[https://dev.mysql.com/doc/refman/8.0/en/mysql-acid.html](https://dev.mysql.com/doc/refman/8.0/en/mysql-acid.html)  
+[https://ko.wikipedia.org/wiki/ACID](https://ko.wikipedia.org/wiki/ACID)  
+[https://chat.openai.com/](https://chat.openai.com/)  
