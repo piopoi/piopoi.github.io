@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 #use_math: true
 ---
-> MySQL8.0 공식 문서로 공부하기
+> MySQL 8.0 Reference Manual로 공부하기
 
 # ACID 모델이란?
 비즈니스 데이터 및 애플리케이션에 중요한 안정성 측면을 강조하는 데이터베이스 설계 원칙으로, 데이터베이스 트랜잭션이 안전하게 수행된다는 것을 보장하기 위한 성질을 가리키는 약어이다.
