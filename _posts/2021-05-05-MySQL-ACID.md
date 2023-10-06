@@ -1,5 +1,5 @@
 ---
-title: "MySQL8.0 - ACID 모델"
+title: "ACID 모델"
 date: 2021-05-05
 categories:
   - Database
