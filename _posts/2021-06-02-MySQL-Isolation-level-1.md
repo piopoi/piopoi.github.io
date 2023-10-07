@@ -1,5 +1,5 @@
 ---
-title: "Isolation level과 REPEATABLE READ"
+title: "Isolation level 1: REPEATABLE READ"
 date: 2021-06-02
 categories:
   - Database
