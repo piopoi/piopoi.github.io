@@ -20,6 +20,7 @@ InnoDB에서 Isolation level에 따라 트랜잭션 내에서 `SELECT` 문의 �
 다른 Isolation level을 공부하기 전에 먼저 consistent read를 포스팅한다.
 
 <br>
+---
 <br>
 
 # Consistent read
@@ -103,7 +104,9 @@ v
 ```
 
 <br>
+---
 <br>
+
 
 # Consistent read가 작동하지 않는 경우
 
@@ -134,6 +137,7 @@ MySQL은 삭제된 테이블을 사용할 수 없고 InnoDB가 테이블을 삭�
 `SELECT`된 테이블에서 읽은 row에 `lock`을 설정하지 않도록 트랜잭션의 격리 수준을 READ UNCOMMITTED 또는 READ COMMITTED로 설정해야 한다.
 
 <br>
+---
 <br>
 
 # with Isolation level
@@ -153,6 +157,7 @@ INSERT/UPDATE도 비슷하게 처리된다.
 트랜잭션 내 **각각의 consistent read가 자체적인 새로운 스냅샷을 생성**하고 조회한다.
 
 <br>
+---
 <br>
 
 # MVCC (Multi-Versioned Concurrency Control)
@@ -198,6 +203,7 @@ v          SELECT * FROM t;
 2. A와 B가 둘 다 커밋하면, 모든 변경 사항이 모든 세션에게 보이게 된다.
 
 <br>
+---
 <br>
 
 # DB 최신 상태 조회 방법
@@ -220,9 +226,10 @@ locking read는 InnoDB 테이블에 대한 lock도 함께 수행하는 `SELECT` 
 - read-only transaction의 global table에는 허용되지 않는다.
 
 <br>
+---
 <br>
 
 # References
 
-[https://dev.mysql.com/doc/refman/8.0/en/innodb-consistent-read.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-consistent-read.html)
+[https://dev.mysql.com/doc/refman/8.0/en/innodb-consistent-read.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-consistent-read.html)  
 [https://chat.openai.com/?model=gpt-4](https://chat.openai.com/?model=gpt-4)
