@@ -156,11 +156,17 @@ INSERT/UPDATE도 비슷하게 처리된다.
 <br>
 
 # MVCC (Multi-Versioned Concurrency Control)
-트랜잭션을 커밋한 다음, 다른 SELECT 또는 START TRANSACTION WITH CONSISTENT SNAPSHOT을 수행하여 시점을 앞당길 수 있는데, 
-이를 **다중 버전 동시성 제어**(Multi-Versioned Concurrency Control)라고 한다.
+트랜잭션을 커밋한 다음, 다시 `SELECT` 또는 `START TRANSACTION WITH CONSISTENT SNAPSHOT`을 수행하여 시점(timepoint)을 전진시킬 수 있다.
+이를 **다중 버전 동시성 제어(MVCC: Multi-Versioned Concurrency Control)**라고 한다.
 
-아래 예제에서 세션 A는 B가 `INSERT`를 커밋하고 A도 커밋한 경우에만, 
-B가 `INSERT`한 row를 조회할 수 있으므로 시점도 B의 커밋보다 이전에 있다.
+MVCC는 동시에 여러 트랜잭션을 처리할 수 있게 해주는 데이터베이스 관리 시스템(DBMS)의 동시성 제어 메커니즘으로,
+각 트랜잭션에 대해 특정 시점의 데이터 스냅샷을 제공하여 동시에 다른 트랜잭션의 변경 사항으로부터 독립적으로 작동하게 한다.
+
+아래 예제에서는 세션 A는  
+- B가 `INSERT`를 커밋하고,  
+- A를 커밋하여 B의 커밋 이후의 시점으로 진행됐을 때에만  
+
+B에 의해 삽입된 row를 볼 수 있다.
 
 ```sql
              Session A              Session B
@@ -185,6 +191,11 @@ v          SELECT * FROM t;
            |    1    |    2    |
            ---------------------
 ```
+코드 설명
+1. 세션 A는 B가 데이터를 삽입하기 전과 후에 t 테이블을 조회한다.
+   - 그러나 세션 B의 변경 사항은 A에게 보이지 않는다.
+   - 이는 A가 B의 변경 사항이 커밋되기 전의 데이터 스냅샷을 보기 때문이다.
+2. A와 B가 둘 다 커밋하면, 모든 변경 사항이 모든 세션에게 보이게 된다.
 
 <br>
 <br>
