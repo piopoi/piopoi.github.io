@@ -136,7 +136,7 @@ MySQL은 삭제된 테이블을 사용할 수 없고 InnoDB가 테이블을 삭�
 <br>
 <br>
 
-# with Transaction isolation level
+# with Isolation level
 consistent read는 InnoDB가 `READ COMMITTED` 및 `REPEATABLE READ` isolation level에서 `SELECT` 문을 처리하는 기본 모드다.
 
 ## REPEATABLE READ
