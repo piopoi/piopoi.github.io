@@ -146,6 +146,7 @@ body {
     font-size: 0.8em;
     background: $code-background-color;
     border-radius: $border-radius;
+    color: $code-font-color; //코드 글자색 변경
 
     &::before,
     &::after {
