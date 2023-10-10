@@ -37,27 +37,9 @@ InnoDB에서 Isolation level에 따라 트랜잭션 내에서 `SELECT` 문의 �
 이는 서로 다른 세션이 동시에 동일한 테이블을 업데이트하는 경우, 데이터베이스에 존재하지 않았던 상태의 테이블이 표시될 수 있음을 의미한다.
 
 ## 예제
-스냅샷은 반드시 DML 문에 적용되는 것은 아니지만, 트랜잭션 내의 `SELECT` 문에는 적용된다.  
-격리 수준이 `REPEATABLE READ`인 경우를 예로 들어본다.
-
-트랜잭션 B에서 row를 삽입/수정한 다음 커밋하는 경우,
-- 동시 진행 중인 트랜잭션 A에서 B가 커밋한 row를 조회할 수 없었더라도
-  - 이미 A에서 첫 `SELECT`가 실행되어 스냅샷 생성되었다면 해당 row를 조회할 수 없다.
-- 해당 row에 대해 `DELETE` 또는 `UPDATE`를 실행하면 해당 row를 수정/삭제할 수 있다.
-
-트랜잭션이 다른 트랜잭션에 의해 커밋된 row를 수정/삭제하는 경우, 이러한 변경 사항이 현재 트랜잭션에 표시된다.
-- A가 step3에서 수정한 row를 step4에서 조회할 수 있었다.
-
-<br>
-
 코드를 보고 이해하자.
 
-1. step1에서 트랜잭션 A가 `c = 'aaa'`인 row를 조회했지만 결과는 0건이었다.
-2. A가 커밋되기 전에 step2에서 동시에 다른 트랜잭션 B가 `c = 'aaa'`인 row 10건을 삽입 또는 수정했다.
-3. A는 step1에서 어떠한 row도 조회되지 않았지만, step3에서 `UPDATE`을 실행하니 10건의 row가 수정되었다.
-4. step4에서 A가 자신이 `c = 'ccc'`로 `UPDATE`한 row를 조회하니 10건이 조회되었다.
-
-UPDATE
+### Case1. UPDATE
 ```sql
 time     Transaction A           Transaction B
 v       (REPEATABLE READ)
@@ -85,7 +67,25 @@ v       (REPEATABLE READ)
         -- 결과: 10
 ```
 
-DELETE
+1. step1에서 트랜잭션 A가 `c = 'aaa'`인 row를 조회했지만 결과는 0건이었다.
+2. A가 커밋되기 전에 step2에서 동시에 다른 트랜잭션 B가 `c = 'aaa'`인 row 10건을 삽입 또는 수정했다.
+3. A는 step1에서 어떠한 row도 조회되지 않았지만, step3에서 `UPDATE`을 실행하니 10건의 row가 수정되었다.
+4. step4에서 A가 자신이 `c = 'ccc'`로 `UPDATE`한 row를 조회하니 10건이 조회되었다.
+
+스냅샷은 반드시 DML 문에 적용되는 것은 아니지만, **트랜잭션 내의 SELECT 문에는 적용된다.**  
+격리 수준이 `REPEATABLE READ`인 경우를 예로 들어본다.
+
+트랜잭션 B에서 row를 삽입/수정한 다음 커밋하는 경우,
+- 동시 진행 중인 트랜잭션 A에서 B가 커밋한 row를 조회할 수 없었더라도
+  - 이미 A에서 첫 `SELECT`가 실행되어 스냅샷 생성되었다면 해당 row를 조회할 수 없다.
+- 해당 row에 대해 `DELETE` 또는 `UPDATE`를 실행하면 해당 row를 수정/삭제할 수 있다.
+
+트랜잭션이 다른 트랜잭션에 의해 커밋된 row를 수정/삭제하는 경우, 이러한 변경 사항이 현재 트랜잭션에 표시된다.
+- A가 step3에서 수정한 row를 step4에서 조회할 수 있었다.
+
+<br>
+
+### Case2. DELETE
 ```sql
 time     Transaction A           Transaction B
 v
@@ -104,7 +104,6 @@ v
 
 <br>
 <br>
-
 
 # Consistent read가 작동하지 않는 경우
 
