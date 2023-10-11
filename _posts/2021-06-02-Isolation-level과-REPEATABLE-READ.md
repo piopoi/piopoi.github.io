@@ -12,7 +12,7 @@ toc_sticky: true
 #use_math: true
 ---
 > MySQL 8.0 Reference Manual로 공부하기  
-> Transaction Isolation levels 시리즈 1
+> Series: Transaction isolation levels 1
 
 {% include_relative series/transaction_isolation_level.md %}
 
