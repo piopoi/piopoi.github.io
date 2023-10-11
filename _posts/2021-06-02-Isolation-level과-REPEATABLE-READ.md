@@ -5,13 +5,14 @@ categories:
   - Database
 tags:
   - MySQL
+  - MySQL 8.0 Reference Manual
 toc: true
 toc_sticky: true
 #published: false
 #use_math: true
 ---
 > MySQL 8.0 Reference Manual로 공부하기  
-> Transaction Isolation levels 시리즈 - 1
+> Transaction Isolation levels 시리즈 1
 
 MySQL에서 매우 중요한 개념인 Transaction isolation levels에 대한 개념과 
 innoDB의 default isolation level인 REPEATABLE READ에 대해 알아본다.
