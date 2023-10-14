@@ -16,7 +16,7 @@ toc_sticky: true
 {% include_relative series/MySQL_8.0_Reference_Manual.md %}
 
 앞에서 Transaction isolation level 중 `REPEATABLE READ`와 `READ COMMITTED`에 대해 알아보았다.  
-이번 글에서는 `READ UNCOMMITTED`, `SERIALIZABLE`에 대해 알아보자.
+이번 글에서는 `READ UNCOMMITTED`에 대해 알아보자.
 
 <br>
 
