@@ -11,6 +11,8 @@ toc_sticky: true
 #published: false
 #use_math: true
 ---
+> MySQL 8.0 Reference Manual로 공부하기
+
 {% include_relative series/MySQL_8.0_Reference_Manual.md %}
 
 Consistent Nonlocking Reads(이하 "consistent read")는 
