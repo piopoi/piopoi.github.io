@@ -11,10 +11,7 @@ toc_sticky: true
 #published: false
 #use_math: true
 ---
-> MySQL 8.0 Reference Manual로 공부하기
-> Series: Transaction isolation levels 2
-
-{% include_relative series/transaction_isolation_level.md %}
+{% include_relative series/MySQL_8.0_Reference_Manual.md %}
 
 InnoDB에서 제공하는 4가지 트랜잭션 격리수준은 다음과 같다.
 - READ-UNCOMMITTED

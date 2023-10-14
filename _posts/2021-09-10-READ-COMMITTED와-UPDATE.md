@@ -11,10 +11,7 @@ toc_sticky: true
 #published: false
 use_math: true
 ---
-> MySQL 8.0 Reference Manual로 공부하기  
-> Series: Transaction isolation levels 4
-
-{% include_relative series/transaction_isolation_level.md %}
+{% include_relative series/MySQL_8.0_Reference_Manual.md %}
 
 # READ COMMITTED
 하나의 트랜잭션 안에서 각각의 consistent read는 자체적인 새 스냅샷(Snapshot)을 생성하고 읽는다.

@@ -11,10 +11,7 @@ toc_sticky: true
 #published: false
 #use_math: true
 ---
-> MySQL 8.0 Reference Manual로 공부하기  
-> Series: Transaction isolation levels 3
-
-{% include_relative series/transaction_isolation_level.md %}
+{% include_relative series/MySQL_8.0_Reference_Manual.md %}
 
 Consistent Nonlocking Reads(이하 "consistent read")는 
 InnoDB에서 Isolation level에 따라 트랜잭션 내에서 `SELECT` 문의 조회 결과가 달라지는 부분을 이해하기 위해 꼭 짚고 넘어가야 하는 기술이다.
