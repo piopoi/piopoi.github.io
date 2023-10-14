@@ -88,4 +88,3 @@ MySQL에는 소프트웨어 충돌과 같은 예외적인 조건으로 인해 �
 
 [https://dev.mysql.com/doc/refman/8.0/en/mysql-acid.html](https://dev.mysql.com/doc/refman/8.0/en/mysql-acid.html)  
 [https://ko.wikipedia.org/wiki/ACID](https://ko.wikipedia.org/wiki/ACID)  
-[https://chat.openai.com/](https://chat.openai.com/)  

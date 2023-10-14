@@ -228,4 +228,3 @@ locking read는 InnoDB 테이블에 대한 lock도 함께 수행하는 `SELECT` 
 # References
 
 [https://dev.mysql.com/doc/refman/8.0/en/innodb-consistent-read.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-consistent-read.html)  
-[https://chat.openai.com/?model=gpt-4](https://chat.openai.com/?model=gpt-4)

@@ -225,4 +225,3 @@ WHERE b = 2 AND c = 4;
 # References
 
 [https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html)  
-[https://chat.openai.com/?model=gpt-4](https://chat.openai.com/?model=gpt-4)
