@@ -1,6 +1,6 @@
 ---
 title: "InnoDB Locking: Shared Lock과 Exclusive Lock"
-date: 2021-11-21
+date: 2022-01-16
 categories:
   - Database
 tags:
