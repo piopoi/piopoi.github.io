@@ -13,6 +13,7 @@
    6. [SERIALIZABLE과 autocommit]({{ site.url }}{{ site.baseurl }}/database/SERIALIZABLE과-autocommit)
 3. InnoDB Locking
    1. [Shared Lock과 Exclusive Lock]({{ site.url }}{{ site.baseurl }}/database/Shared-Lock과-Exclusive-Lock)
+   2. [Record Lock]({{ site.url }}{{ site.baseurl }}/database/Record-Lock)
 
 ---
 <br>
