@@ -294,6 +294,11 @@ defaults:
       comments: true # true
       share: false
       related: true
+      toc: true
+      toc_sticky: true
+      use_math: true
+      sidebar:
+        nav: "leftmenu"
   # _pages
   - scope:
       path: ""
@@ -305,3 +310,5 @@ defaults:
       comments: false
       share: false
       related: false
+      sidebar:
+        nav: "leftmenu"

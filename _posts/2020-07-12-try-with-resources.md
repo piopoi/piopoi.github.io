@@ -4,10 +4,7 @@ date: 2020-07-12
 categories: 
   - Programming
 tags:
-  - Java
-toc: true
-toc_sticky: true
-#use_math: true
+  - java
 ---
 <br>
 

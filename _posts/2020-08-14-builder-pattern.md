@@ -4,10 +4,7 @@ date: 2020-08-14
 categories: 
   - Programming
 tags:
-  - Design pattern
-toc: true
-toc_sticky: true
-#use_math: true
+  - design pattern
 ---
 <br>
 

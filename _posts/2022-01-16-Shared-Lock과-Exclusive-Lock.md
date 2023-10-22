@@ -4,12 +4,7 @@ date: 2022-01-16
 categories:
   - Database
 tags:
-  - MySQL
-  - MySQL 8.0 Reference Manual
-toc: true
-toc_sticky: true
-#published: false
-#use_math: true
+  - mysql
 ---
 > MySQL 8.0 Reference Manual로 공부하기
 

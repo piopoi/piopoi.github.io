@@ -2,14 +2,12 @@
 title: "Install Netdata with docker-compose"
 date: 2023-08-11
 categories: 
-  - Server
+  - Infrastructure
 tags:
-  - Linux/ubuntu22.04
-  - Monitoring
-  - Docker
-toc: true
-toc_sticky: true
-#use_math: true
+  - server
+  - linux/ubuntu
+  - monitoring
+  - docker
 ---
 <br>
 
