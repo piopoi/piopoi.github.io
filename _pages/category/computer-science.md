@@ -1,6 +1,6 @@
 ---
 title: "Computer Science"
-permalink: /computer-science
+permalink: /categories/computer-science
 layout: archive
 ---
 

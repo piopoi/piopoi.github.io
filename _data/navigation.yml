@@ -11,10 +11,38 @@ leftmenu:
   - title: "Categories"
     children:
       - title: "Computer Science"
-        url: /computer-science
+        url: /categories/computer-science
       - title: "Database"
-        url: /database
+        url: /categories/database
       - title: "Programming"
-        url: /programming
+        url: /categories/programming
       - title: "Infrastructure"
-        url: /infrastructure
+        url: /categories/infrastructure
+  - title: "Tags"
+    children:
+      - title: "algorithm"
+        url: /tags/algorithm
+      - title: "data structure"
+        url: /tags/data-structure
+      - title: "design pattern"
+        url: /tags/design-pattern
+      - title: "docker"
+        url: /tags/docker
+      - title: "java"
+        url: /tags/java
+      - title: "linux/ubuntu"
+        url: /tags/linux-ubuntu
+      - title: "monitoring"
+        url: /tags/monitoring
+      - title: "mysql"
+        url: /tags/mysql
+      - title: "protocol"
+        url: /tags/protocol
+      - title: "security"
+        url: /tags/security
+      - title: "server"
+        url: /tags/server
+      - title: "troubleshooting"
+        url: /tags/troubleshooting
+      - title: "web"
+        url: /tags/web
