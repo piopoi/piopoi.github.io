@@ -11,10 +11,10 @@ leftmenu:
   - title: "Categories"
     children:
       - title: "Computer Science"
-        url: /computer-science
+        url: /categories/computer-science
       - title: "Database"
-        url: /database
+        url: /categories/database
       - title: "Programming"
-        url: /programming
+        url: /categories/programming
       - title: "Infrastructure"
-        url: /infrastructure
+        url: /categories/infrastructure

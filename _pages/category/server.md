@@ -1,6 +1,6 @@
 ---
 title: "Infrastructure"
-permalink: /infrastructure
+permalink: /categories/infrastructure
 layout: archive
 ---
 
