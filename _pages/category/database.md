@@ -1,6 +1,6 @@
 ---
 title: "Database"
-permalink: /database
+permalink: /categories/database
 layout: archive
 ---
 
