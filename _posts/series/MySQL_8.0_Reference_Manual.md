@@ -14,6 +14,7 @@
 3. InnoDB Locking
    1. [Shared Lock과 Exclusive Lock]({{ site.url }}{{ site.baseurl }}/database/Shared-Lock과-Exclusive-Lock)
    2. [Record Lock]({{ site.url }}{{ site.baseurl }}/database/Record-Lock)
+   3. [Intention Lock]({{ site.url }}{{ site.baseurl }}/database/Intention-Lock)
 
 ---
 <br>
