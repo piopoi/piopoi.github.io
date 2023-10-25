@@ -51,8 +51,7 @@ SELECT ...FOR SHARE
 트랜잭션이 테이블의 개별 행에 배타 락을 설정할 계획이라는 것을 나타낸다.
 
 ```sql
-SELECT ...FOR
-UPDATE
+SELECT ...FOR UPDATE
 ```
 
 <br>
