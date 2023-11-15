@@ -89,7 +89,7 @@ SELECT ...FOR UPDATE
 ### 차단 제외
 
 인텐션 락은 `LOCK TABLES ... WRITE`와 같은 테이블 전체 요청을 제외하고는 어떤 것도 차단하지 않는다.  
-이는 인텐션 락의 실제로 행을 lock 하는 것이 아니라, lock을 설정할 `의도(Intention)`만을 나타내기 때문이다. 
+이는 인텐션 락이 실제로 행을 lock 하는 것이 아니라, lock을 설정할 `의도(Intention)`만을 나타내기 때문이다. 
 
 <br>
 
