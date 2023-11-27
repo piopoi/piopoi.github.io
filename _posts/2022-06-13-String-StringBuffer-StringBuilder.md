@@ -12,6 +12,17 @@ Java에서는 문자열을 표현하는 3가지 클래스인 String, StringBuffe
 
 <br>
 
+# 간단 비교
+
+| Index        | String               | StringBuffer | StringBuilder |
+|--------------|----------------------|--------------|---------------|
+| Storage Area | Constant String Pool | Heap         | Heap          |
+| Modifiable   | Immutable            | Mutable      | Mutable       |
+| Thread Safe  | Yes                  | Yes          | No            |
+| Performance  | Fast                 | Very Slow    | Fast          |
+
+<br>
+
 # String
 
 - `immutable`
