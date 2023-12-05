@@ -9,9 +9,8 @@ tags:
 
 <br>
 
-가장 기본적인 자료구조인 배열(Array)과 연결 리스트(Linked List)를 비교해보자.
+가장 기본적인 자료구조인 배열(Array)과 연결 리스트(Linked list)에 대해 알아보자.
 
-<br>
 <br>
 
 # 차이점 요약
