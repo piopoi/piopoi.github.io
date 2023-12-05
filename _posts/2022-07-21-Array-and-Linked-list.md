@@ -61,7 +61,7 @@ tags:
 <br>
 <br>
 
-# 연결 리스트 (Linked List)
+# 연결 리스트 (Linked list)
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022/0721/linkedlist.png"/>  
 
