@@ -17,7 +17,7 @@ tags:
 
 <br>
 
-# static 변수
+# 1. Static Variable
 
 `static`으로 선언된 변수는 클래스의 모든 인스턴스가 공유하는 변수로, **클래스 변수**, **정적 변수**라고도 한다.    
 
@@ -41,7 +41,7 @@ class TestClass {
 <br>
 <br>
 
-# static 메서드
+# 2. Static Method
 
 static 메서드는 **인스턴스 생성 없이 호출**할 수 있는 메서드다.  
 **오직 static 변수나 다른 static 메서드에만 접근할 수 있으며, 인스턴스 변수에는 접근할 수 없다.**  
@@ -60,12 +60,12 @@ static 메서드 역시 JVM의 메서드 영역에 저장된다.
 <br>
 <br>
 
-# static 초기화 블록
+# 3. Static Initialization Block
 
 **클래스가 JVM에 로드될 때 단 한 번만 실행**되는 static 블록은 **주로 static 변수를 초기화하는 데 사용**된다.  
 이 블록은 **클래스의 생성자보다 먼저 실행**되며, 클래스 로딩 시에 필요한 준비 작업을 수행하는 데 유용하다.
 
-## static 블록 vs instance 블록 
+## Initialization Block
 
 초기화 블록(Initialization Block)은 `static` 여부에 따라 2가지로 나뉜다.
 - Instance Block (Non-static Initialization Block)
@@ -83,14 +83,15 @@ public class Example {
 }
 ```
 
-### Instance Block (Non-static Initialization Block)
-
+### Instance Block
+- = `Non-static` Initialization Block
 - 인스턴스 블록은 클래스의 각 인스턴스가 생성될 때마다 실행된다.
 - 객체 생성 과정에서 객체의 필드나 상태를 초기화하는 데 사용된다.
 - 생성자보다 먼저 실행되지만, 생성자와 마찬가지로 객체당 한 번만 실행된다.
 - `{ }`(중괄호)로 정의되며, `static` 키워드 없이 작성된다.
 
-### Static Block (Static Initialization Block)
+### Static Block 
+- = `Static` Initialization Block
 - 클래스가 JVM에 로드될 때 단 한 번만 실행된다.
 - 주로 클래스 레벨의 데이터 또는 정적 필드(static fields)를 초기화하는 데 사용된다.
 - 클래스의 모든 인스턴스에 공통적인 초기 설정을 제공한다.
@@ -99,7 +100,7 @@ public class Example {
 <br>
 <br>
 
-# static 클래스
+# 4. Static Inner Class
 
 정적 내부 클래스(Static Inner Class)라고도 하는 static으로 선언된 내부 클래스는 외부 클래스의 인스턴스 없이도 사용할 수 있다.    
 
