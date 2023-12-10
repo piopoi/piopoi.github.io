@@ -11,11 +11,13 @@
    4. [READ COMMITTED와 UPDATE]({{ site.url }}{{ site.baseurl }}/database/READ-COMMITTED와-UPDATE)
    5. [READ UNCOMMITTED와 Dirty Read]({{ site.url }}{{ site.baseurl }}/database/READ-UNCOMMITTED와-Dirty-Read)
    6. [SERIALIZABLE과 autocommit]({{ site.url }}{{ site.baseurl }}/database/SERIALIZABLE과-autocommit)
-3. InnoDB Locking
+3. Lock
    1. [Shared Lock과 Exclusive Lock]({{ site.url }}{{ site.baseurl }}/database/Shared-Lock과-Exclusive-Lock)
    2. [Record Lock]({{ site.url }}{{ site.baseurl }}/database/Record-Lock)
    3. [Intention Lock]({{ site.url }}{{ site.baseurl }}/database/Intention-Lock)
    4. [Gap Lock]({{ site.url }}{{ site.baseurl }}/database/Gap-Lock)
+4. Index
+   1. [Index의 정의와 MySQL이 인덱스를 사용하는 방법]({{ site.url }}{{ site.baseurl }}/database/Index의-정의와-MySQL이-인덱스를-사용하는-방법)
 
 ---
 <br>
