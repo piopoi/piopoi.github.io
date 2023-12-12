@@ -17,7 +17,7 @@
    3. [Intention Lock]({{ site.url }}{{ site.baseurl }}/database/Intention-Lock)
    4. [Gap Lock]({{ site.url }}{{ site.baseurl }}/database/Gap-Lock)
 4. Index
-   1. [Index의 정의와 MySQL이 인덱스를 사용하는 방법]({{ site.url }}{{ site.baseurl }}/database/Index의-정의와-MySQL이-인덱스를-사용하는-방법)
+   1. [MySQL이 Index를 사용하는 방법]({{ site.url }}{{ site.baseurl }}/database/MySQL이-Index를-사용하는-방법)
 
 ---
 <br>
