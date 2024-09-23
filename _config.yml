@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "Seokwon Kang"
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Java Web Developer\nkangsw1988@gmail.com"
+  bio              : "Server Developer\nkangsw1988@gmail.com"
   location         : "Republic of Korea"
 #  email            : "kangsw1988@gmail.com"
   links:
