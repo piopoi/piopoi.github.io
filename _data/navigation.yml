@@ -36,6 +36,8 @@ leftmenu:
         url: /tags/monitoring
       - title: "mysql"
         url: /tags/mysql
+      - title: "network"
+        url: /tags/network
       - title: "object-oriented"
         url: /tags/object-oriented
       - title: "paradigm"
