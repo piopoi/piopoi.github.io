@@ -10,6 +10,8 @@ main:
 leftmenu:
   - title: "Categories"
     children:
+      - title: "CI/CD"
+        url: /categories/ci-cd
       - title: "Computer Science"
         url: /categories/computer-science
       - title: "Database"
@@ -20,6 +22,8 @@ leftmenu:
         url: /categories/infrastructure
   - title: "Tags"
     children:
+      - title: "study"
+        url: /tags/study
       - title: "algorithm"
         url: /tags/algorithm
       - title: "data structure"
