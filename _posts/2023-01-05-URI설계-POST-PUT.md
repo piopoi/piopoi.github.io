@@ -109,3 +109,11 @@ PUT /users/123
 
 리소스 관리의 관점에서 `POST`는 서버가 리소스를 다루는 방식에 대한 제어권을 가지고 있지만,<br>
 `PUT`은 클라이언트가 명확하게 리소스의 URI를 지정한다는 차이가 있다.
+
+<br>
+
+# References.
+
+[모든 개발자를 위한 HTTP 웹 기본 지식 - 김영한](https://www.inflearn.com/course/http-api-설계)
+
+[ChatGPT 4o](https://chatgpt.com/)
