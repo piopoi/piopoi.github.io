@@ -24,6 +24,8 @@ leftmenu:
     children:
       - title: "study"
         url: /tags/study
+      - title: "architecture"
+        url: /tags/architecture
       - title: "algorithm"
         url: /tags/algorithm
       - title: "data structure"
