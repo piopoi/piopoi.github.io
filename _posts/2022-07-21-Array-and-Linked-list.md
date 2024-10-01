@@ -5,6 +5,7 @@ categories:
   - Computer Science
 tags:
   - data structure
+  - study
 ---
 
 <br>

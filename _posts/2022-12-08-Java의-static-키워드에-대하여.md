@@ -5,6 +5,7 @@ categories:
   - Programming
 tags:
   - java
+  - study
 ---
 
 자바에서 `static` 키워드는 다양한 상황에서 사용되며, 그 사용법과 의미는 크게 4가지로 분류할 수 있다.  

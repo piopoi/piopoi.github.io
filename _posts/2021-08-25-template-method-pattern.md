@@ -5,6 +5,7 @@ categories:
   - Programming
 tags:
   - design pattern
+  - study
 ---
 <br>
 

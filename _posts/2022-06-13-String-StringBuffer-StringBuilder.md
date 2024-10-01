@@ -5,6 +5,7 @@ categories:
   - Programming
 tags:
   - java
+  - study
 ---
 
 Java에서는 문자열을 표현하는 3가지 클래스인 String, StringBuffer, StringBuilder를 제공한다.  
