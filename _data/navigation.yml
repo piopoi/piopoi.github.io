@@ -20,6 +20,8 @@ leftmenu:
         url: /categories/infrastructure
       - title: "CI/CD"
         url: /categories/ci-cd
+      - title: "ETC"
+        url: /categories/etc
   - title: "Tags"
     children:
       - title: "study"
