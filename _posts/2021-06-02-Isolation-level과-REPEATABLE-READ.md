@@ -1,9 +1,9 @@
 ---
 title: "Isolation level과 REPEATABLE READ"
 date: 2021-06-02
-categories:
-  - Database
+categories: knowledge
 tags:
+  - database
   - mysql
 ---
 > MySQL 8.0 Reference Manual로 공부하기

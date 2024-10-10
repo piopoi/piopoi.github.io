@@ -1,9 +1,9 @@
 ---
 title: "SERIALIZABLE과 autocommit"
 date: 2021-11-21
-categories:
-  - Database
+categories: knowledge
 tags:
+  - database
   - mysql
 ---
 > MySQL 8.0 Reference Manual로 공부하기

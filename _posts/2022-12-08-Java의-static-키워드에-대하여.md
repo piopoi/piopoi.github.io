@@ -1,9 +1,9 @@
 ---
 title: "Java의 static 키워드에 대하여"
 date: 2022-12-08
-categories: 
-  - Programming
+categories: knowledge
 tags:
+  - programming
   - java
   - study
 ---

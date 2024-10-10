@@ -1,9 +1,9 @@
 ---
 title: "배열(Array)과 연결리스트(Linked list)"
 date: 2022-07-21
-categories:
-  - Computer Science
+categories: knowledge
 tags:
+  - computer Science
   - data structure
   - study
 ---

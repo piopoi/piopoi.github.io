@@ -1,11 +1,11 @@
 ---
 title: "싱글톤 패턴 (Singleton pattern)"
 date: 2020-06-14
-categories: 
-  - Programming
+categories: knowledge
 tags:
   - design pattern
   - study
+  - programming
 published: false
 ---
 <br>
@@ -77,7 +77,7 @@ public class DCLSingleton {
 # 3. 싱글톤 사용시 주의사항
 
 - 클래스 로더를 2개 이상 사용하는 경우, 인스턴스가 2개 이상 생성될 수 있다. 이런 경우에는 클래스 로더를 지정해야 한다.
-- 자바와 스프링의 싱글톤 차이점은, 싱글톤 객체의 생명주기가 다르다는 점이다. 또한, 자바에서 범위는 클래스 로더가 기준이지만, 스프링에서는 어플리케이션 컨텍스트(ApplicationContext)가 기준이 된다.
+- 자바와 스프링의 싱글톤 차���점은, 싱글톤 객체의 생명주기가 다르다는 점이다. 또한, 자바에서 범위는 클래스 로더가 기준이지만, 스프링에서는 어플리케이션 컨텍스트(ApplicationContext)가 기준이 된다.
 - 클래스 로더 기준이라는 것은 톰캣이 WAR 파일을 만들게 되면, WAR파일 하나 당 클래 로더 하나가 1:1 식으로 배치가 되기 때문에 다른 WAR 파일은 참조가 불가능하다.
 - 반면, ApplicationContext 기준이라는 것은 web.xml에서 root context 하나와 servlet context 여러개를 등록할 수 있는데, 이 각각의 context들이 싱글톤의 범위가 된다.
 
@@ -95,4 +95,4 @@ public class DCLSingleton {
 [https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom](https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom)  
 [https://www.baeldung.com/java-singleton-double-checked-locking](https://www.baeldung.com/java-singleton-double-checked-locking)  
 [https://medium.com/webeveloper/%EC%8B%B1%EA%B8%80%ED%84%B4-%ED%8C%A8%ED%84%B4-singleton-pattern-db75ed29c36](https://medium.com/webeveloper/%EC%8B%B1%EA%B8%80%ED%84%B4-%ED%8C%A8%ED%84%B4-singleton-pattern-db75ed29c36)  
-[https://blog.javarouka.me/2018/11/20/no-instance/](https://blog.javarouka.me/2018/11/20/no-instance/)  
+[https://blog.javarouka.me/2018/11/20/no-instance/](https://blog.javarouka.me/2018/11/20/no-instance/)

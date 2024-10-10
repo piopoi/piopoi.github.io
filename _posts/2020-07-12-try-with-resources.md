@@ -1,9 +1,9 @@
 ---
 title: "try-with-resources"
 date: 2020-07-12
-categories: 
-  - Programming
+categories: knowledge
 tags:
+  - programming
   - java
 ---
 <br>

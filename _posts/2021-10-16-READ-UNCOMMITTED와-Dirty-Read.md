@@ -1,9 +1,9 @@
 ---
 title: "READ UNCOMMITTED와 Dirty Read"
 date: 2021-10-16
-categories:
-  - Database
+categories: knowledge
 tags:
+  - database
   - mysql
 ---
 > MySQL 8.0 Reference Manual로 공부하기

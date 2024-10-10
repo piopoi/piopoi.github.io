@@ -1,9 +1,9 @@
 ---
 title: "빌더 패턴 (Builder pattern)"
 date: 2020-08-14
-categories: 
-  - Programming
+categories: knowledge
 tags:
+  - programming
   - design pattern
 ---
 <br>

@@ -1,9 +1,9 @@
 ---
 title: "Isolation level 설정 방법"
 date: 2021-06-03
-categories:
-  - Database
+categories: knowledge
 tags:
+  - database
   - mysql
 ---
 > MySQL 8.0 Reference Manual로 공부하기

@@ -1,9 +1,9 @@
 ---
 title: "InnoDB Locking: Shared Lock과 Exclusive Lock"
 date: 2022-01-16
-categories:
-  - Database
+categories: knowledge
 tags:
+  - database
   - mysql
 ---
 > MySQL 8.0 Reference Manual로 공부하기

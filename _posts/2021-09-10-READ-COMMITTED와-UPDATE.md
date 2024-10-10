@@ -1,9 +1,9 @@
 ---
 title: "READ COMMITTED와 UPDATE"
 date: 2021-09-10
-categories:
-  - Database
+categories: knowledge
 tags:
+  - database
   - mysql
 ---
 > MySQL 8.0 Reference Manual로 공부하기

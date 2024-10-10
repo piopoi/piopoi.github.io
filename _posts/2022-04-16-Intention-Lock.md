@@ -1,9 +1,9 @@
 ---
 title: "InnoDB Locking: Intention Lock"
 date: 2022-04-16
-categories:
-  - Database
+categories: knowledge
 tags:
+  - database
   - mysql
 ---
 

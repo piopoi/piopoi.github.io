@@ -1,13 +1,14 @@
 ---
 title: "Install Netdata with docker-compose"
 date: 2023-08-11
-categories: 
-  - Infrastructure
+categories: experience
 tags:
+  - infrastructure
   - server
   - linux/ubuntu
   - monitoring
   - docker
+  - setup
 ---
 <br>
 

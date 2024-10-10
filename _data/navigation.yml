@@ -10,18 +10,20 @@ main:
 leftmenu:
   - title: "Categories"
     children:
-      - title: "Computer Science"
-        url: /categories/computer-science
-      - title: "Database"
-        url: /categories/database
-      - title: "Programming"
-        url: /categories/programming
-      - title: "Infrastructure"
-        url: /categories/infrastructure
-      - title: "CI/CD"
-        url: /categories/ci-cd
-      - title: "ETC"
-        url: /categories/etc
+      # - title: "Computer Science"
+      #   url: /categories/computer-science
+      # - title: "Database"
+      #   url: /categories/database
+      # - title: "Programming"
+      #   url: /categories/programming
+      # - title: "Infrastructure"
+      #   url: /categories/infrastructure
+      # - title: "CI/CD"
+      #   url: /categories/ci-cd
+      - title: "knowledge"
+        url: /categories/knowledge
+      - title: "experience"
+        url: /categories/experience
   - title: "Tags"
     children:
       - title: "study"
@@ -30,8 +32,12 @@ leftmenu:
         url: /tags/architecture
       - title: "algorithm"
         url: /tags/algorithm
+      - title: "computer-science"
+        url: /tags/computer-science
       - title: "data structure"
         url: /tags/data-structure
+      - title: "database"
+        url: /tags/database
       - title: "design pattern"
         url: /tags/design-pattern
       - title: "docker"

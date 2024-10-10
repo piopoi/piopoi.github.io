@@ -1,9 +1,9 @@
 ---
 title: "HTTP API 설계: POST vs PUT"
 date: 2023-01-05
-categories: 
-  - Programming
+categories: knowledge
 tags:
+  - programming
   - web
 ---
 

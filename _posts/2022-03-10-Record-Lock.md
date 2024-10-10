@@ -1,9 +1,9 @@
 ---
 title: "InnoDB Locking: Record Lock"
 date: 2022-03-10
-categories:
-  - Database
+categories: knowledge
 tags:
+  - database
   - mysql
 ---
 > MySQL 8.0 Reference Manual로 공부하기

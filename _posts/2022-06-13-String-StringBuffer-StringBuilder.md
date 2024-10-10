@@ -1,9 +1,9 @@
 ---
 title: "String, StringBuffer, StringBuilder"
 date: 2022-06-13
-categories: 
-  - Programming
+categories: knowledge
 tags:
+  - programming
   - java
   - study
 ---

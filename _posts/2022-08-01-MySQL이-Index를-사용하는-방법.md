@@ -1,9 +1,9 @@
 ---
 title: "MySQL이 Index를 사용하는 방법"
 date: 2022-08-01
-categories:
-  - Database
+categories: knowledge
 tags:
+  - database
   - mysql
 ---
 > MySQL 8.0 Reference Manual로 공부하기

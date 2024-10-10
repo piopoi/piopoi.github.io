@@ -1,9 +1,9 @@
 ---
 title: "템플릿 메소드 패턴 (Template method pattern)"
 date: 2021-08-25
-categories: 
-  - Programming
+categories: knowledge
 tags:
+  - programming
   - design pattern
   - study
 ---

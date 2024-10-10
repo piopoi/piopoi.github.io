@@ -1,9 +1,9 @@
 ---
 title: "Consistent read와 Isolation level"
 date: 2021-07-07
-categories:
-  - Database
+categories: knowledge
 tags:
+  - database
   - mysql
 ---
 > MySQL 8.0 Reference Manual로 공부하기
