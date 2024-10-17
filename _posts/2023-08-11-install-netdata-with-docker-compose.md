@@ -92,7 +92,7 @@ Netdata의 기본 Port는 **19999**이다.
 http://{서버 IP}:19999
 ```
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023/0923/230923_01.png" width="100%"/><br>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023/0811/230811_01.png" width="100%"/><br>
 
 <br>
 
