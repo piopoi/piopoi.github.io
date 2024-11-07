@@ -6,7 +6,6 @@ tags:
   - database
   - mysql
 ---
-> MySQL 8.0 Reference Manual로 공부하기
 
 {% include_relative series/MySQL_8.0_Reference_Manual.md %}
 
@@ -230,7 +229,7 @@ InnoDB 테이블은 보조 인덱스를 하나도 가지지 않거나, 하나 �
 <br>
 
 # References
-[https://dev.mysql.com/doc/refman/8.0/en/mysql-indexes.html](https://dev.mysql.com/doc/refman/8.0/en/mysql-indexes.html)  
-[https://ko.wikipedia.org/wiki/인덱스_(데이터베이스)](https://ko.wikipedia.org/wiki/%EC%9D%B8%EB%8D%B1%EC%8A%A4_(%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4))  
-[https://tecoble.techcourse.co.kr/post/2021-09-18-db-index/](https://tecoble.techcourse.co.kr/post/2021-09-18-db-index/)
+[https://dev.mysql.com/doc/refman/8.0/en/mysql-indexes.html](https://dev.mysql.com/doc/refman/8.0/en/mysql-indexes.html){:target="_blank"}<br>
+[https://ko.wikipedia.org/wiki/인덱스_(데이터베이스)](https://ko.wikipedia.org/wiki/%EC%9D%B8%EB%8D%B1%EC%8A%A4_(%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4)){:target="_blank"}<br>
+[https://tecoble.techcourse.co.kr/post/2021-09-18-db-index/](https://tecoble.techcourse.co.kr/post/2021-09-18-db-index/){:target="_blank"}<br>
 

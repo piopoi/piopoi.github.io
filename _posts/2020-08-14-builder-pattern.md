@@ -91,9 +91,8 @@ Post post = Post.builder()
 ```
 
 <br>
-<br>
 
-# References
-[https://github.com/greekZorba/java-design-patterns/tree/master/builder](https://github.com/greekZorba/java-design-patterns/tree/master/builder)
-[https://en.wikipedia.org/wiki/Builder_pattern](https://en.wikipedia.org/wiki/Builder_pattern)
-[https://johngrib.github.io/wiki/pattern/builder/](https://johngrib.github.io/wiki/pattern/builder/)
+# References.
+[https://github.com/greekZorba/java-design-patterns/tree/master/builder](https://github.com/greekZorba/java-design-patterns/tree/master/builder){:target="_blank"}<br>
+[https://en.wikipedia.org/wiki/Builder_pattern](https://en.wikipedia.org/wiki/Builder_pattern){:target="_blank"}<br>
+[https://johngrib.github.io/wiki/pattern/builder/](https://johngrib.github.io/wiki/pattern/builder/){:target="_blank"}<br>

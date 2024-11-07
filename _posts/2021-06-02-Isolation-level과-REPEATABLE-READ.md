@@ -6,7 +6,6 @@ tags:
   - database
   - mysql
 ---
-> MySQL 8.0 Reference Manual로 공부하기
 
 {% include_relative series/MySQL_8.0_Reference_Manual.md %}
 
@@ -82,9 +81,8 @@ gap lock은 성능과 동시성 간의 절충안의 일부이며,
 index record에 대한 record lock와 index record 앞의 gap에 대한 gap lock의 조합이다.
 
 <br>
-<br>
 
-# References
+# References.
 
-[https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html)
-[https://en.wikipedia.org/wiki/Isolation_(database_systems)](https://en.wikipedia.org/wiki/Isolation_(database_systems))
+[https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html){:target="_blank"}<br>
+[https://en.wikipedia.org/wiki/Isolation_(database_systems)](https://en.wikipedia.org/wiki/Isolation_(database_systems)){:target="_blank"}<br>

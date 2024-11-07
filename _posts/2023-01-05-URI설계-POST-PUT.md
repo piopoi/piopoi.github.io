@@ -114,6 +114,5 @@ PUT /users/123
 
 # References.
 
-[모든 개발자를 위한 HTTP 웹 기본 지식 - 김영한](https://www.inflearn.com/course/http-api-설계)
-
-[ChatGPT](https://chatgpt.com/)
+[모든 개발자를 위한 HTTP 웹 기본 지식 - 김영한](https://www.inflearn.com/course/http-api-설계){:target="_blank"}<br>
+[ChatGPT](https://chatgpt.com/){:target="_blank"}<br>

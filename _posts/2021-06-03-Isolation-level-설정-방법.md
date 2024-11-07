@@ -6,7 +6,6 @@ tags:
   - database
   - mysql
 ---
-> MySQL 8.0 Reference Manual로 공부하기
 
 {% include_relative series/MySQL_8.0_Reference_Manual.md %}
 
@@ -55,12 +54,8 @@ SET @@transaction_isolation = 'REPEATABLE-READ';
 - 후속 트랜잭션은 session isolation level로 돌아간다.
 - 트랜잭션 내에서는 허용되지 않는다.
 
-
-
-
-<br>
 <br>
 
-# References
+# References.
 
-[https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html)
+[https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html){:target="_blank"}<br>

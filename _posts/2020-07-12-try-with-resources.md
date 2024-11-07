@@ -97,9 +97,7 @@ call: MyResource.close()
 # 결론
 가능하면 `try-with-resources`를 사용하자
 
-
-<br>
 <br>
 
 # References.
-[https://docs.oracle.com/javase/8/docs/api/java/lang/AutoCloseable.html](https://docs.oracle.com/javase/8/docs/api/java/lang/AutoCloseable.html)  
+[https://docs.oracle.com/javase/8/docs/api/java/lang/AutoCloseable.html](https://docs.oracle.com/javase/8/docs/api/java/lang/AutoCloseable.html){:target="_blank"}<br>

@@ -112,7 +112,7 @@ JVM은 정적 내부 클래스를 **외부 클래스와 독립적으로 취급**
 
 ## 내부 클래스를 static으로 선언해야 하는 이유
 
-> 참조: [내부 클래스는 static 으로 선언 안하면 큰일 난다](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%9E%90%EB%B0%94%EC%9D%98-%EB%82%B4%EB%B6%80-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%8A%94-static-%EC%9C%BC%EB%A1%9C-%EC%84%A0%EC%96%B8%ED%95%98%EC%9E%90#inner_%ED%81%B4%EB%9E%98%EC%8A%A4%EC%9D%98_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EB%88%84%EC%88%98_%ED%98%84%EC%83%81)
+> 참조: [내부 클래스는 static 으로 선언 안하면 큰일 난다](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%9E%90%EB%B0%94%EC%9D%98-%EB%82%B4%EB%B6%80-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%8A%94-static-%EC%9C%BC%EB%A1%9C-%EC%84%A0%EC%96%B8%ED%95%98%EC%9E%90#inner_%ED%81%B4%EB%9E%98%EC%8A%A4%EC%9D%98_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EB%88%84%EC%88%98_%ED%98%84%EC%83%81){:target="_blank"}
 
 ### 비 정적 내부 클래스는 외부 클래스를 참조한다.
 
@@ -186,6 +186,6 @@ Non-static Inner Class의 경우, 외부 클래스가 필요없더라도 내부 
 
 # References.
 
-[[Java] static 변수, static 메서드 그리고 static 클래스](https://velog.io/@mooh2jj/Java-static-%EB%B3%80%EC%88%98-static-%EB%A9%94%EC%84%9C%EB%93%9C-%EA%B7%B8%EB%A6%AC%EA%B3%A0-static-%ED%81%B4%EB%9E%98%EC%8A%A4)  
-[내부 클래스는 static 으로 선언 안하면 큰일 난다](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%9E%90%EB%B0%94%EC%9D%98-%EB%82%B4%EB%B6%80-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%8A%94-static-%EC%9C%BC%EB%A1%9C-%EC%84%A0%EC%96%B8%ED%95%98%EC%9E%90)  
-[JVM 내부 구조 & 메모리 영역 💯 총정리](https://inpa.tistory.com/entry/JAVA-%E2%98%95-JVM-%EB%82%B4%EB%B6%80-%EA%B5%AC%EC%A1%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%98%81%EC%97%AD-%EC%8B%AC%ED%99%94%ED%8E%B8#%EC%9E%90%EB%B0%94_%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0jvm%EC%9D%98_%EB%8F%99%EC%9E%91_%EB%B0%A9%EC%8B%9D)
+[[Java] static 변수, static 메서드 그리고 static 클래스](https://velog.io/@mooh2jj/Java-static-%EB%B3%80%EC%88%98-static-%EB%A9%94%EC%84%9C%EB%93%9C-%EA%B7%B8%EB%A6%AC%EA%B3%A0-static-%ED%81%B4%EB%9E%98%EC%8A%A4){:target="_blank"}<br>
+[내부 클래스는 static 으로 선언 안하면 큰일 난다](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%9E%90%EB%B0%94%EC%9D%98-%EB%82%B4%EB%B6%80-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%8A%94-static-%EC%9C%BC%EB%A1%9C-%EC%84%A0%EC%96%B8%ED%95%98%EC%9E%90){:target="_blank"}<br>
+[JVM 내부 구조 & 메모리 영역 💯 총정리](https://inpa.tistory.com/entry/JAVA-%E2%98%95-JVM-%EB%82%B4%EB%B6%80-%EA%B5%AC%EC%A1%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%98%81%EC%97%AD-%EC%8B%AC%ED%99%94%ED%8E%B8#%EC%9E%90%EB%B0%94_%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0jvm%EC%9D%98_%EB%8F%99%EC%9E%91_%EB%B0%A9%EC%8B%9D){:target="_blank"}

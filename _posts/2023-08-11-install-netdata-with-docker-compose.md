@@ -106,4 +106,4 @@ netdata를 먼저 사용해본 후 화면이 마음에 안들면 grafana를 추�
 <br>
 
 # References.
-[https://learn.netdata.cloud/docs/installing/docker](https://learn.netdata.cloud/docs/installing/docker)
+[https://learn.netdata.cloud/docs/installing/docker](https://learn.netdata.cloud/docs/installing/docker){:target="_blank"}

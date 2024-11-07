@@ -6,7 +6,6 @@ tags:
   - database
   - mysql
 ---
-> MySQL 8.0 Reference Manual로 공부하기
 
 {% include_relative series/MySQL_8.0_Reference_Manual.md %}
 
@@ -38,7 +37,7 @@ InnoDB는 모든 일반 `SELECT` 문을 `SELECT ... FOR SHARE`로 암시적으�
 `SELECT`문이 `Consistent (nonlocking) read`로 수행되는 경우,
 직렬화(`Serialization`)할 수 있으며, 다른 트랜잭션에 대해 차단(Block)할 필요가 없다.
 
-- [Consistent (nonlocking) read]({{ site.url }}{{ site.baseurl }}/database/Consistent-read와-Isolation-level)
+- [Consistent (nonlocking) read]({{ site.url }}{{ site.baseurl }}/knowledge/Consistent-read와-Isolation-level){:target="_blank"}<br>
   - 트랜잭션 격리 수준에 따라 다른 트랜잭션에 의해 변경되는 중간 상태의 데이터를 읽지 않고, 
   - 일관된 상태의 데이터만을 읽는다는 것을 의미한다. 
   - `Nonlocking`은 이 작업이 다른 트랜잭션에 Lock을 걸지 않는다는 것을 의미한다.
@@ -48,8 +47,7 @@ InnoDB는 모든 일반 `SELECT` 문을 `SELECT ... FOR SHARE`로 암시적으�
   - 다시 말해, 이 SELECT 문은 다른 트랜잭션에 의한 데이터 변경의 영향을 받지 않으므로, 트랜잭션들이 순차적으로 일어나는 것처럼 시스템을 안전하게 유지할 수 있다.
 
 <br>
-<br>
 
-# References
+# References.
 
-[https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html)  
+[https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html){:target="_blank"}<br>

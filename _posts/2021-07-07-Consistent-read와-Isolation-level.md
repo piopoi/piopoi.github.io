@@ -6,7 +6,6 @@ tags:
   - database
   - mysql
 ---
-> MySQL 8.0 Reference Manual로 공부하기
 
 {% include_relative series/MySQL_8.0_Reference_Manual.md %}
 
@@ -217,8 +216,7 @@ locking read는 InnoDB 테이블에 대한 lock도 함께 수행하는 `SELECT` 
 - read-only transaction의 global table에는 허용되지 않는다.
 
 <br>
-<br>
 
-# References
+# References.
 
-[https://dev.mysql.com/doc/refman/8.0/en/innodb-consistent-read.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-consistent-read.html)  
+[https://dev.mysql.com/doc/refman/8.0/en/innodb-consistent-read.html](https://dev.mysql.com/doc/refman/8.0/en/innodb-consistent-read.html){:target="_blank"}<br>

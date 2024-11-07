@@ -116,5 +116,5 @@ public class TemplateMethodPattern {
 <br>
 
 # References.
-[https://johngrib.github.io/wiki/pattern/template-method/](https://johngrib.github.io/wiki/pattern/template-method/)
-[https://en.wikipedia.org/wiki/File:Template_Method_UML_class_diagram.svg](https://en.wikipedia.org/wiki/File:Template_Method_UML_class_diagram.svg)
+[https://johngrib.github.io/wiki/pattern/template-method/](https://johngrib.github.io/wiki/pattern/template-method/){:target="_blank"}<br>
+[https://en.wikipedia.org/wiki/File:Template_Method_UML_class_diagram.svg](https://en.wikipedia.org/wiki/File:Template_Method_UML_class_diagram.svg){:target="_blank"}<br>

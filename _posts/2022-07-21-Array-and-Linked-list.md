@@ -125,5 +125,5 @@ tags:
 
 # References.
 
-[geeksforgeeks: Linked List vs Array](https://www.geeksforgeeks.org/linked-list-vs-array/)  
-[Inpa Dev: 자바 LinkedList 구조 & 사용법 - 정복하기](https://inpa.tistory.com/entry/JAVA-%E2%98%95-LinkedList-%EA%B5%AC%EC%A1%B0-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%99%84%EB%B2%BD-%EC%A0%95%EB%B3%B5%ED%95%98%EA%B8%B0#linkedlist_%EA%B0%9D%EC%B2%B4_%EC%83%9D%EC%84%B1)
+[geeksforgeeks: Linked List vs Array](https://www.geeksforgeeks.org/linked-list-vs-array/){:target="_blank"}<br>
+[Inpa Dev: 자바 LinkedList 구조 & 사용법 - 정복하기](https://inpa.tistory.com/entry/JAVA-%E2%98%95-LinkedList-%EA%B5%AC%EC%A1%B0-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%99%84%EB%B2%BD-%EC%A0%95%EB%B3%B5%ED%95%98%EA%B8%B0#linkedlist_%EA%B0%9D%EC%B2%B4_%EC%83%9D%EC%84%B1){:target="_blank"}<br>

@@ -115,5 +115,5 @@ StringBuilder 소요시간(ms) = 5
 <br>
 
 # References.
-[https://medium.com/@257ramanrb/string-vs-stringbuilder-vs-stringbuffer-935d170141a9](https://medium.com/@257ramanrb/string-vs-stringbuilder-vs-stringbuffer-935d170141a9)
-[https://incheol-jung.gitbook.io/docs/q-and-a/java/string-stringbuffer-stringbuilder](https://incheol-jung.gitbook.io/docs/q-and-a/java/string-stringbuffer-stringbuilder)
+[https://medium.com/@257ramanrb/string-vs-stringbuilder-vs-stringbuffer-935d170141a9](https://medium.com/@257ramanrb/string-vs-stringbuilder-vs-stringbuffer-935d170141a9){:target="_blank"}<br>
+[https://incheol-jung.gitbook.io/docs/q-and-a/java/string-stringbuffer-stringbuilder](https://incheol-jung.gitbook.io/docs/q-and-a/java/string-stringbuffer-stringbuilder){:target="_blank"}<br>
