@@ -34,6 +34,8 @@ leftmenu:
         url: /tags/algorithm
       - title: "computer-science"
         url: /tags/computer-science
+      - title: "concurrency"
+        url: /tags/concurrency
       - title: "data structure"
         url: /tags/data-structure
       - title: "database"
