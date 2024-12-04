@@ -48,6 +48,8 @@ leftmenu:
         url: /tags/java
       - title: "linux/ubuntu"
         url: /tags/linux-ubuntu
+      - title: "mac os"
+        url: /tags/mac-os
       - title: "monitoring"
         url: /tags/monitoring
       - title: "mysql"
