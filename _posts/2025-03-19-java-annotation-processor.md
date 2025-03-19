@@ -53,18 +53,7 @@ Annotation Processor는 자바 컴파일 단계에서 `@Entity`, `@Getter`, `@Au
 
 # Annotation Processing 동작 과정
 
-```mermaid
-flowchart TD
-    A[컴파일 시작:<br>javac 컴파일러가<br>소스 코드 컴파일 시작] --> B[어노테이션 스캔:<br>소스에서 어노테이션 탐색]
-    B --> C[프로세서 매칭:<br>적절한 어노테이션 프로세서 찾기]
-    C --> D[어노테이션 처리 라운드 시작]
-    D --> E[프로세서 실행:<br>각 라운드에서 프로세서 실행]
-    E --> F[코드 생성/분석:<br>코드 생성 또는 분석 수행]
-    F --> G{새로운 파일 생성 여부}
-    G -- Yes --> D
-    G -- No --> H[마지막 라운드 실행]
-    H --> I[컴파일 완료:<br>일반적인 컴파일 과정 진행]
-```
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2025/20250319_01.png" width="100%"/><br><br>
 
 1. 소스 코드 파싱
    - 컴파일러가 .java 파일을 읽어 **구문 트리(Syntax Tree)**로 변환한다.
