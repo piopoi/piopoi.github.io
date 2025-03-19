@@ -53,7 +53,7 @@ Annotation Processor는 자바 컴파일 단계에서 `@Entity`, `@Getter`, `@Au
 
 # Annotation Processing 동작 과정
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2025/20250319_01.png" width="100%"/><br><br>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2025/20250319_01.png" width="300px"/><br><br>
 
 1. 소스 코드 파싱
    - 컴파일러가 .java 파일을 읽어 **구문 트리(Syntax Tree)**로 변환한다.
