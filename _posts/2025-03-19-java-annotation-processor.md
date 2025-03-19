@@ -77,6 +77,8 @@ Annotation Processor는 자바 컴파일 단계에서 `@Entity`, `@Getter`, `@Au
    - 최종적으로 모든 .java 소스를 .class 파일로 변환한다.
    - 이때 생성된 **Q 클래스나 Lombok 메서드도 포함되어 컴파일**됨.
 
+<br>
+
 # References.
 
 [https://hannesdorfmann.com/annotation-processing/annotationprocessing101/](https://hannesdorfmann.com/annotation-processing/annotationprocessing101/)<br>
