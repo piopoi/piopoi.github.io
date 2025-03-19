@@ -13,10 +13,10 @@ dependencies {
     ...
 
     //QueryDSL
-    implementation 'com.querydsl:querydsl-jpa:5.0.0'
-	  annotationProcessor "com.querydsl:querydsl-apt:5.0.0:jpa"
-	  annotationProcessor "jakarta.annotation:jakarta.annotation-api"
-	  annotationProcessor "jakarta.persistence:jakarta.persistence-api"
+   implementation 'com.querydsl:querydsl-jpa:5.0.0'
+   annotationProcessor "com.querydsl:querydsl-apt:5.0.0:jpa"
+   annotationProcessor "jakarta.annotation:jakarta.annotation-api"
+   annotationProcessor "jakarta.persistence:jakarta.persistence-api"
 
     ...
 }
