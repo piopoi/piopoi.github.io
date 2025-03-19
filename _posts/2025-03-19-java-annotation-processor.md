@@ -24,6 +24,8 @@ dependencies {
 
 QueryDSL이 QClass를 생성할 때 annotationProcessor가 필요하다는 것만 알고 어떻게 동작하는지는 몰라서 이 포스트를 통해 간단하게 정리해본다.
 
+<br>
+
 # Annotation Processor
 
 Annotation Processor는 자바 컴파일 단계에서 `@Entity`, `@Getter`, `@Autowired` 같은 Annotation을 읽고 처리해주는 도구다.
@@ -51,7 +53,7 @@ Annotation Processor는 자바 컴파일 단계에서 `@Entity`, `@Getter`, `@Au
 - 사람이 작성하면 실수할 수 있는 부분을 자동으로 생성해준다.
 - 결국 코드 가독성이 좋아지고, 생산성이 올라간다.
 
-# Annotation Processing 동작 과정
+## Annotation Processing 동작 과정
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2025/20250319_01.png" width="300px"/><br><br>
 
@@ -74,3 +76,9 @@ Annotation Processor는 자바 컴파일 단계에서 `@Entity`, `@Getter`, `@Au
 5. 최종 컴파일 및 클래스 파일 생성
    - 최종적으로 모든 .java 소스를 .class 파일로 변환한다.
    - 이때 생성된 **Q 클래스나 Lombok 메서드도 포함되어 컴파일**됨.
+
+# References.
+
+[https://hannesdorfmann.com/annotation-processing/annotationprocessing101/](https://hannesdorfmann.com/annotation-processing/annotationprocessing101/)<br>
+[https://velog.io/@kny8092/Java-Annotation%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%98%EB%82%98](https://velog.io/@kny8092/Java-Annotation%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%98%EB%82%98)<br>
+[ChatGPT](https://chat.openai.com)<br>
