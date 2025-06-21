@@ -60,6 +60,8 @@ leftmenu:
         url: /tags/object-oriented
       - title: "paradigm"
         url: /tags/paradigm
+      - title: "project"
+        url: /tags/project
       - title: "protocol"
         url: /tags/protocol
       - title: "security"
